@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'yzy';
+    src: url(yzy.ttf);
+  }
+
+#yzy {
+    font-family: 'yzy';
+    font-size: 20px;
+}
