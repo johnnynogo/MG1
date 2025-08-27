@@ -1,9 +1,47 @@
+/*** ******************************************* ***/
+
+body {
+    /* display: flex; */
+    /* flex-direction: column; */
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+}
+
+/*** ******************************************* ***/
+
 @font-face {
     font-family: 'yzy';
-    src: url(yzy.ttf);
-  }
+    src: url('other/yzy.ttf') format('truetype');
+    font-display: swap; 
+}
 
-#yzy {
-    font-family: 'yzy';
+.yzy-header {
+    font-family: 'yzy', Arial, sans-serif;
+    font-size: 30px;
+}
+
+.yzy-txt {
+    font-family: 'yzy', Arial, sans-serif;
     font-size: 20px;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* flex: 1; */
+    height: 100vh;
+}
+
+.white-section {
+    background-color: white;
+}
+
+.green-section {
+    background-color: green;
+    color: white;
 }
