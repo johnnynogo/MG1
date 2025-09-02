@@ -42,6 +42,36 @@ body {
 }
 
 .green-section {
+    position: relative; /* Set the container as the positioning context */
     background-color: green;
     color: white;
+    height: 100vh; /* Ensure it fills the viewport height */
+}
+
+.green-section p {
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+    font-size: 20px;
+}
+
+.silent {
+    position: absolute; 
+    top: 18%; 
+    left: 40%; 
+    width: 300px; 
+}
+
+.paris {
+    position: absolute; 
+    top: 18%; 
+    left: 20%; 
+    width: 366px; 
+}
+
+.milla {
+    position: absolute; 
+    top: 18%; 
+    left: 56.5%; 
+    width: 525px; 
 }
